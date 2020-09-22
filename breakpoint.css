@@ -1,0 +1,68 @@
+body {
+background-color: white;
+}
+
+h1 {
+text-align: center;
+}
+
+p {
+width: 600px;
+height: 200px;
+border: 1pt soild black;
+float: left;
+margin-right: auto;
+margin-left: auto;
+font-family: sans-serif;
+color: white;
+position: center;
+  
+}
+
+.a {
+background-color: red;
+
+}
+
+#s1 {
+	background-color: yellow;
+	color: black;
+	float: left;
+}
+
+.b{
+background-color: blue;
+}
+
+.c {
+background-color: yellow;
+}
+
+/* desktop ***/
+
+@media (min-width: 992px) {
+
+.a {
+	width: 33%;
+}
+.b {
+width: 33%;
+}
+.c {
+width: 33%;
+}
+}
+
+/*tablet devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.a {
+
+}
+}
+
+/* moblie */
+
+@media (max-width: 767px)
+
