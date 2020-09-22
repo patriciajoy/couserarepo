@@ -11,8 +11,6 @@ width: 600px;
 height: 200px;
 border: 1pt soild black;
 float: left;
-margin-right: auto;
-margin-left: auto;
 font-family: sans-serif;
 color: white;
 position: center;
@@ -27,8 +25,8 @@ background-color: red;
 #s1 {
 	background-color: yellow;
 	color: black;
-	float: left;
-}
+	text-align: justify;
+	}
 
 .b{
 background-color: blue;
